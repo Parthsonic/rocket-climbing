@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="RocketClimbing"
+run/main_scene="uid://c7jf4xtv18h87"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*res://scripts/GameManager.gd"
 
 [editor]
 
